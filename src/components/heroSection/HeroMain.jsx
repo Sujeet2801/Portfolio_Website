@@ -8,8 +8,8 @@ const HeroMain = () => {
 
         <div className='flex md:flex-row sm:flex-col max-w-[1200px]
          mx-auto justify-between items-center relative pr-px'>
-            <HeroText/>
             <HeroPic/>
+            <HeroText/>
         </div>
     </div>
   )

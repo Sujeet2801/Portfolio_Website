@@ -7,7 +7,7 @@ const SubHeroSection = () => {
       items-center gap-4 bg-brown'>
         <p className='md:block sm:hidden'>Fast Learner</p>
         <p className='md:block sm:hidden'>Team Work</p>
-        <p>Deatils Master</p>
+        <p>Details Master</p>
     </div>
   )
 }

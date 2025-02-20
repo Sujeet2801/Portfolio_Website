@@ -8,7 +8,7 @@ const NavbarLogo = () => {
           Sujeet Kumar Gupta</h1>
 
         <h1 className=' text-white font-special font-extrabold 
-        text-4xl sm:block md:hidden'>SG</h1>
+        text-4xl sm:block md:hidden'>SKG</h1>
     </div>
   )
 }

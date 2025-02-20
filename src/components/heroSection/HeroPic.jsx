@@ -1,11 +1,18 @@
 import React from 'react';
-import { PiHexagonThin } from 'react-icons/pi';
+import { motion } from "framer-motion";
+import { fadeIn } from "../../framerMotion/variants";
+
 
 const HeroPic = () => {
   return (
-    <div className='relative h-full flex justify-center items-center'>
+    <motion.div  
+    variants={fadeIn("left", 0.2)}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0 }}
+    className='relative h-full flex justify-center items-center'>
       <img
-        src='../../public/images/HexaPic.png'
+        src='./images/experience-image.png'
         alt='Profile'
         className='max-h-[450px] w-auto drop-shadow-xl rounded-lg'
       />
@@ -14,7 +21,7 @@ const HeroPic = () => {
           className='md:h-[90%] sm:h-[120%] min-h-[600px] w-auto text-cyan blur-lg animate-[spin_20s_linear_infinite]'
         />
       </div> */}
-    </div>
+    </motion.div>
   );
 };
 
