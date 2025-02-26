@@ -6,25 +6,25 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Vacation of Africa",
-    year: "Mar2022",
+    name: "IPOConnect",
+    year: "Oct24 - Mar25",
     align: "right",
     image: "./images/website-img-1.jpg",
-    link: "#",
+    link: "https://ipoconnect.vercel.app/",
   },
   {
-    name: "Moola App",
-    year: "Sept2022",
+    name: "Spendwise",
+    year: "Sept2024",
     align: "left",
     image: "./images/website-img-2.webp",
-    link: "#",
+    link: "https://spendwise-client.vercel.app/",
   },
   {
-    name: "Tourzania",
+    name: "Printify",
     year: "Jan2023",
     align: "right",
     image: "./images/website-img-3.jpg",
-    link: "#",
+    link: "https://printify-z38i.vercel.app/",
   },
   {
     name: "Bank of Luck",
@@ -55,6 +55,7 @@ const ProjectsMain = () => {
               year={project.year}
               align={project.align}
               image={project.image}
+              link={project.link}
             />
           );
         })}

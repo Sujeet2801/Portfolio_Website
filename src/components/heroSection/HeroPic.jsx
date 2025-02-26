@@ -2,7 +2,6 @@ import React from 'react';
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
-
 const HeroPic = () => {
   return (
     <motion.div  
@@ -16,11 +15,6 @@ const HeroPic = () => {
         alt='Profile'
         className='max-h-[450px] w-auto drop-shadow-xl rounded-lg'
       />
-      {/* <div className='absolute -z-10 flex justify-center items-center animate-pulse'>
-        <PiHexagonThin
-          className='md:h-[90%] sm:h-[120%] min-h-[600px] w-auto text-cyan blur-lg animate-[spin_20s_linear_infinite]'
-        />
-      </div> */}
     </motion.div>
   );
 };
