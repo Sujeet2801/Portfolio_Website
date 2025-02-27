@@ -7,14 +7,8 @@ const AboutMeText = () => {
 
       <h2 className=' text-6xl text-cyan mb-10 '>About Me</h2>
 
-      <p className=' text-white'>I’m Sujeet Kumar Gupta, a web developer instructor with
-        expertise in both front-end and back-end development. My passion lies in building
-        modern, scalable web applications and helping others master the skills needed to
-        succeed in the tech industry. I specialize in React and Tailwind CSS, ensuring that
-        my students can create high-performance, responsive, and visually appealing applications.
-        With a strong foundation in both client-side and server-side development, My goal is to
-        bridge the gap between theoretical knowledge and practical implementation, equipping
-        learning with hands-on experience that prepares them for real-world challenges.
+      <p className=' text-white'>I’m Sujeet Kumar Gupta, a web developer with expertise in JavaScript, React, and Node.js. My passion lies in building modern, scalable web applications and solving complex problems through hands-on practice. I specialize in creating full-stack applications, using React for dynamic front-end development and Node.js for back-end services.
+My approach is entirely practice-oriented. Whether it’s optimizing code, debugging, or architecting scalable solutions, I aim to bridge the gap between knowledge and actual development experience.
       </p>
 
       <Link

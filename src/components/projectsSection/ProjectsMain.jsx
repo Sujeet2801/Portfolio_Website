@@ -11,20 +11,23 @@ const projects = [
     align: "right",
     image: "./images/website-img-1.jpg",
     link: "https://ipoconnect.vercel.app/",
+    GitHublink: "https://github.com/Sujeet2801/IPO-Connect",
   },
   {
     name: "Spendwise",
     year: "Sept2024",
     align: "left",
-    image: "./images/website-img-2.webp",
+    image: "./images/spendwise_image.png",
     link: "https://spendwise-client.vercel.app/",
+    GitHublink: "https://github.com/Sujeet2801/spendwise_client",
   },
   {
     name: "Printify",
     year: "Jan2023",
     align: "right",
-    image: "./images/website-img-3.jpg",
+    image: "./images/printify_image.png",
     link: "https://printify-z38i.vercel.app/",
+    GitHublink: "https://github.com/Sujeet2801/Printify",
   },
   {
     name: "Bank of Luck",
@@ -32,6 +35,7 @@ const projects = [
     align: "left",
     image: "./images/website-img-4.jpg",
     link: "#",
+    GitHublink: "https://ipoconnect.vercel.app/",
   },
 ];
 
@@ -56,6 +60,7 @@ const ProjectsMain = () => {
               align={project.align}
               image={project.image}
               link={project.link}
+              GitHublinklink={project.GitHublink}
             />
           );
         })}

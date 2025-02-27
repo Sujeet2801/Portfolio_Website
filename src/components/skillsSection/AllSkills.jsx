@@ -24,10 +24,6 @@ const skills = [
       icon: IoLogoJavascript,
     },
     {
-      skill: "TypeScript",
-      icon: SiTypescript,
-    },
-    {
       skill: "ReactJS",
       icon: FaReact,
     },
@@ -35,10 +31,6 @@ const skills = [
       skill: "Redux",
       icon: SiRedux,
     },
-    // {
-    //   skill: "NextJS",
-    //   icon: SiNextdotjs,
-    // },
     {
       skill: "TailwindCSS",
       icon: RiTailwindCssFill,
@@ -48,7 +40,7 @@ const skills = [
 const AllSkills = () => {
   return (
     <div>
-      <div className="flex items-center justify-center relative gap-2 max-w-[1200px] mx-auto">
+      <div className="flex items-center justify-center relative gap-3 max-w-[1200px] mx-auto">
         {skills.map((item, index) => {
           return (
             <div >
