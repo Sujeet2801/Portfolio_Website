@@ -40,7 +40,7 @@ const SingleProject = ({ name, year, align, image, link, GitHublinklink }) => {
                     hover:opacity-0 transition-all duration-500 md:block sm:hidden">
                 </div>
 
-                <img src={image} alt="website image" className="w-full h-full" />
+                <img src={image} alt="website image" className="w-96" />
             </div>
         </div>
     );

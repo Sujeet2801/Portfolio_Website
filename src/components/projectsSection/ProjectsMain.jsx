@@ -3,6 +3,7 @@ import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import { useNavigate } from 'react-router-dom';
 
 const projects = [
   {
@@ -29,17 +30,10 @@ const projects = [
     link: "https://printify-z38i.vercel.app/",
     GitHublink: "https://github.com/Sujeet2801/Printify",
   },
-  {
-    name: "Bank of Luck",
-    year: "May2024",
-    align: "left",
-    image: "./images/website-img-4.jpg",
-    link: "#",
-    GitHublink: "https://ipoconnect.vercel.app/",
-  },
 ];
 
 const ProjectsMain = () => {
+  const nav = useNavigate()
   return (
     <div id="projects" className="max-w-[1200px] mx-auto px-4">
       <motion.div
@@ -64,6 +58,11 @@ const ProjectsMain = () => {
             />
           );
         })}
+      </div>
+      <div className='flex justify-center'>
+        <button
+        className='bg-lightCyan px-5 py-2 rounded-md mt-10 hover:bg-orange font-semibold'
+        onClick={()=>nav("/projects")}>View All Projects</button>
       </div>
     </div>
   );

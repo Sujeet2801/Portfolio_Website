@@ -1,34 +1,20 @@
-
-import './App.css'
-import AboutMeMain from './components/aboutMeSection.jsx/AboutMeMain'
-import ContactMeMain from './components/contactMeSection/ContactMeMain'
-import ExperienceMain from './components/experienceSection/ExperienceMain'
-import FooterMain from './components/footer/FooterMain'
-import HeroGradient from './components/heroSection/HeroGradient'
-import HeroMain from './components/heroSection/HeroMain'
-import SubHeroSection from './components/heroSection/SubHeroSection'
-import NavbarMain from './components/navbar/NavbarMain'
-import ProjectsMain from './components/projectsSection/ProjectsMain'
-import SkillsMain from './components/skillsSection/SkillsMain'
-import SubSkills from './components/skillsSection/SubSkills'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import NavbarMain from "./components/navbar/NavbarMain";
+import Home_Page from "./Home_Page";
+import Project_Page from "./Project_Page";
 
 function App() {
-  
   return (
-    <main className='font-body'>
-      <NavbarMain/>
-      <HeroMain/>
-      <HeroGradient/>
-      <SubHeroSection/>
-      <AboutMeMain/>
-      <SkillsMain />
-      <SubSkills />
-      {/* <ExperienceMain /> */}
-      <ProjectsMain />
-      <ContactMeMain />
-      <FooterMain />
-    </main>
-  )
+    <Router>
+      <main className="font-body">
+        <NavbarMain />
+        <Routes>
+          <Route path="/" element={<Home_Page />} />
+          <Route path="/projects" element={<Project_Page />} />
+        </Routes>
+      </main>
+    </Router>
+  );
 }
 
-export default App
+export default App;
