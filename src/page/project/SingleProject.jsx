@@ -1,5 +1,4 @@
 import React from "react";
-
 function SingleProject({ image, projectName, github, weblink, tech }) {
   return (
     <div className="bg-white text-black p-6 rounded-2xl shadow-lg transition-transform 

@@ -1,5 +1,4 @@
 import React from 'react'
-import NavbarMain from './components/navbar/NavbarMain'
 import HeroMain from './components/heroSection/HeroMain'
 import HeroGradient from './components/heroSection/HeroGradient'
 import SubHeroSection from './components/heroSection/SubHeroSection'
@@ -13,14 +12,12 @@ import FooterMain from './components/footer/FooterMain'
 function Home_Page() {
     return (
         <div>
-            {/* <NavbarMain /> */}
             <HeroMain />
             <HeroGradient />
             <SubHeroSection />
             <AboutMeMain />
             <SkillsMain />
             <SubSkills />
-            {/* <ExperienceMain /> */}
             <ProjectsMain />
             <ContactMeMain />
             <FooterMain />
