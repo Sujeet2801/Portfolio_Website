@@ -8,6 +8,7 @@ import SubSkills from './components/skillsSection/SubSkills'
 import ProjectsMain from './components/projectsSection/ProjectsMain'
 import ContactMeMain from './components/contactMeSection/ContactMeMain'
 import FooterMain from './components/footer/FooterMain'
+import AllCertificate from './components/certifiacateSection/AllCertificate'
 
 function Home_Page() {
     return (
@@ -19,6 +20,7 @@ function Home_Page() {
             <SkillsMain />
             <SubSkills />
             <ProjectsMain />
+            <AllCertificate/>
             <ContactMeMain />
             <FooterMain />
         </div>
