@@ -5,7 +5,7 @@ import { fadeIn } from "../../framerMotion/variants";
 const HeroText = () => {
   return (
     <div className='flex flex-col gap-4 h-full justify-center 
-    md:text-left sm:text-center mr-5'>
+    md:text-left sm:text-center mr-10'>
 
         <motion.h2 
         variants={fadeIn("down", 0.2)}
@@ -13,7 +13,7 @@ const HeroText = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
         className='lg:text-2xl sm:text-xl uppercase text-cyan'>
-            Front-end Web Developer
+            Backend Developer
         </motion.h2>
 
         <motion.h1 
@@ -30,10 +30,10 @@ const HeroText = () => {
          initial="hidden"
          whileInView="show"
          viewport={{ once: false, amount: 0 }}
-        className=' text-lg mt-4 text-white hidden md:block'>
-        "I'm a web developer with a strong command of JavaScript,
-        <br /> 
-        I create engaging websites that seamlessly blend with functionality."
+        className=' text-lg mt-4 text-white hidden md:block w-[530px]'>
+        "I possess strong proficiency in JavaScript and Node.js, along with solid
+        debugging skills, and I actively utilize Appwrite as a Backend-as-a-Service
+        (BaaS) solution."
         </motion.p>
 
         <motion.p 
@@ -42,8 +42,9 @@ const HeroText = () => {
          whileInView="show"
          viewport={{ once: false, amount: 0 }}
         className=' text-lg mt-4 text-white block md:hidden'>
-        "I'm a web developer with a strong command of JavaScript,
-        I create engaging websites that seamlessly blend with functionality."
+        "I possess strong proficiency in JavaScript and Node.js, along with solid
+        debugging skills, and I actively utilize Appwrite as a Backend-as-a-Service
+        (BaaS) solution."
         </motion.p>
     </div>
   )
