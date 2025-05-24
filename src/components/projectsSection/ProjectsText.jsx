@@ -7,19 +7,15 @@ const ProjectsText = () => {
         
         <div className="text-lg text-center text-white hidden md:block">
         <p >
-          I have worked on a variety of web development projects, ranging from
-          responsive websites for 
+        "I have worked on a diverse range of web development projects, utilizing various
+        backend technologies." 
         </p>
-        <p >small businesses to full-stack applications and
-        complex front-end interfaces.</p>
         </div>
 
         <div className="text-lg text-center text-white md:hidden">
         <p >
-          I have worked on a variety of web development projects, ranging from
-          responsive websites for 
-        small businesses to full-stack applications and
-        complex front-end interfaces.</p>
+        "I have worked on a diverse range of web development projects, utilizing various 
+        backend technologies."</p>
         </div>
       </div>
     );
