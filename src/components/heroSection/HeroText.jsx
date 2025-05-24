@@ -31,9 +31,8 @@ const HeroText = () => {
          whileInView="show"
          viewport={{ once: false, amount: 0 }}
         className=' text-lg mt-4 text-white hidden md:block w-[530px]'>
-        "I possess strong proficiency in JavaScript and Node.js, along with solid
-        debugging skills, and I actively utilize Appwrite as a Backend-as-a-Service
-        (BaaS) solution."
+        "Crafting powerful, scalable backend systems with clean architecture. I love
+        building APIs, databases, and server-side logic that works"
         </motion.p>
 
         <motion.p 
@@ -42,9 +41,8 @@ const HeroText = () => {
          whileInView="show"
          viewport={{ once: false, amount: 0 }}
         className=' text-lg mt-4 text-white block md:hidden'>
-        "I possess strong proficiency in JavaScript and Node.js, along with solid
-        debugging skills, and I actively utilize Appwrite as a Backend-as-a-Service
-        (BaaS) solution."
+        "Crafting powerful, scalable backend systems with clean architecture. I love
+        building APIs, databases, and server-side logic that works"
         </motion.p>
     </div>
   )
