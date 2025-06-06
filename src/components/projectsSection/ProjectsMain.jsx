@@ -10,7 +10,7 @@ const projects = [
     name: "IPOConnect",
     year: "Oct24 - Mar25",
     align: "right",
-    image: "./images/website-img-1.jpg",
+    image: "./images/ipoconnect.png",
     link: "https://ipoconnect.vercel.app/",
     GitHublink: "https://github.com/Sujeet2801/IPO-Connect",
   },
