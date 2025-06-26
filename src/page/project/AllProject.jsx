@@ -1,19 +1,15 @@
 import React from "react";
 import SingleProject from "./SingleProject";
-import Image from "../../../public/images/website-img-1.jpg";
-import Printify_image from "../../../public/images/printify_image.png";
-import Spendwise_image from "../../../public/images/spendwise_image.png";
-import PasswordChanger from "../../../public/images/passwordChanger.png";
-import Patient_grid from "../../../public/images/patient_grid.png";
-import Text_modulator from "../../../public/images/text_modulator.png";
 
 const projectData = [
-  { image: Image, projectName: "IPOConnect", weblink: "https://ipoconnect.vercel.app/", github: "https://github.com/Sujeet2801/IPO-Connect", tech: "React.js, Tailwind CSS" },
-  { image: Spendwise_image, projectName: "Spendwise", weblink: "https://spendwise-client.vercel.app/", github: "https://github.com/Sujeet2801/spendwise_client", tech: "React.js, Tailwind CSS" },
-  { image: Printify_image, projectName: "Printify", weblink: "", github: "", tech: "React.js, Tailwind CSS" },
-  { image: PasswordChanger, projectName: "Password Changer", weblink: "https://password-changer-neon.vercel.app/", github: "https://github.com/Sujeet2801/PasswordChanger", tech: "Next.js, Framer Motion" },
-  { image: Patient_grid, projectName: "Patient grid", weblink: "https://patinet-grid.vercel.app/", github: "https://github.com/Sujeet2801/PatinetGrid", tech: "Django, PostgreSQL" },
-  { image: Text_modulator, projectName: "Text Modulator", weblink: "https://text-utils-react-tau.vercel.app/", github: "https://github.com/Sujeet2801/TextUtils-react", tech: "HTML, CSS, JavaScript" },
+  { image: "https://res.cloudinary.com/dw6mns230/image/upload/v1750824880/ipoconnect_p6rbz5.png", projectName: "IPOConnect", weblink: "https://ipoconnect.vercel.app/", github: "https://github.com/Sujeet2801/IPO-Connect", tech: "React.js, Node.js, PostgreSQL, express-validator, Resend" },
+  { image: "https://res.cloudinary.com/dw6mns230/image/upload/v1750824905/spendwise_image_ml9bnk.png", projectName: "Spendwise", weblink: "https://spendwise-client.vercel.app/", github: "https://github.com/Sujeet2801/spendwise_client", tech: "React.js, Node.js, MongoDB, Zod, Resend" },
+  { image: "https://res.cloudinary.com/dw6mns230/image/upload/v1750825788/mailpilot_tttixg.png", projectName: "Mail Pilot Ai", weblink: "https://mail-pilot-ai.vercel.app/", github: "https://github.com/Sujeet2801/mail-pilot-ai", tech: "React.js, Spring boot, Gemini API, Material UI" },
+  { image: "https://res.cloudinary.com/dw6mns230/image/upload/v1750826774/blogzilla_hhwgtt.png", projectName: "Blogzilla", weblink: "https://blogs.sujeettech.com/", github: "https://github.com/Sujeet2801/Blogzilla", tech: "React.js, Appwrite, Tailwind CSS, " },
+  // { image: Printify_image, projectName: "Printify", weblink: "", github: "", tech: "React.js, Tailwind CSS" },
+  { image: "https://res.cloudinary.com/dw6mns230/image/upload/v1750829341/passwordChanger_sggusr.png", projectName: "Password Changer", weblink: "https://password-changer-neon.vercel.app/", github: "https://github.com/Sujeet2801/PasswordChanger", tech: "React.js, Framer Motion" },
+  { image: "https://res.cloudinary.com/dw6mns230/image/upload/v1750825103/patient_grid_excag2.png", projectName: "Patient grid", weblink: "https://patinet-grid.vercel.app/", github: "https://github.com/Sujeet2801/PatinetGrid", tech: "Django, PostgreSQL" },
+  { image: "https://res.cloudinary.com/dw6mns230/image/upload/v1750829344/text_modulator_svczus.png", projectName: "Text Modulator", weblink: "https://text-utils-react-tau.vercel.app/", github: "https://github.com/Sujeet2801/TextUtils-react", tech: "HTML, CSS, JavaScript" },
 ];
 
 function AllProject() {

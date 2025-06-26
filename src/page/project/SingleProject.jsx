@@ -12,7 +12,7 @@ function SingleProject({ image, projectName, github, weblink, tech }) {
       <h1 className="text-2xl font-bold mt-4 text-center text-gray-900">{projectName}</h1>
       
       {/* Tech Stack */}
-      <p className="text-sm text-grey text-center mt-1 italic">Tech Used: {tech}</p>
+      <p className="text-sm  text-grey text-center mt-1 italic">Tech Used: {tech}</p>
 
       {/* Buttons */}
       <div className="mt-6 flex gap-3">
