@@ -53,12 +53,6 @@ function AllCertificate() {
                     <SingleCertificate key={cert.id} {...cert} />
                 ))}
             </div>
-            <div className='flex justify-center'>
-                <button
-                    className='bg-lightCyan px-5 py-2 rounded-md mt-10 hover:bg-orange font-semibold'
-                    onClick={()=>navigate("/certificates")}>View All Certificates
-                </button>
-            </div>
         </div>
     );
 }
