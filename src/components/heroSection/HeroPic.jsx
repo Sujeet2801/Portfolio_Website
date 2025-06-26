@@ -11,8 +11,8 @@ const HeroPic = () => {
       viewport={{ once: false, amount: 0 }}
     className='relative h-full flex justify-center items-center'>
       <img
-        src='./images/experience-image.png'
-        alt='Profile'
+        src='https://res.cloudinary.com/dw6mns230/image/upload/v1750824973/experience-image_xdxwrt.png'
+        alt='Hero pic'
         className='max-h-[450px] w-auto drop-shadow-xl rounded-lg'
       />
     </motion.div>
