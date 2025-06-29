@@ -7,7 +7,7 @@ const AboutMeText = () => {
       <h2 className="text-6xl text-cyan mb-10">About Me</h2>
 
       <p className="text-white">
-        I'm a backend developer with a strong foundation in{" "}
+        I'm a fullstack developer with a strong foundation in{" "}
         <span className="font-bold">Javascript</span> and{" "}
         <span className="font-bold">Node.js</span>, focused on building
         scalable, high-performance web applications with a robust authentication
@@ -19,7 +19,7 @@ const AboutMeText = () => {
         <span className="font-bold">Appwrite</span> for secure data handling,
         complete backend services, and robust authentication systems. I'm also
         familiar with containerization and orchestration tools such as Docker
-        and Kubernetes, and have worked with cloud platforms like Railway,
+        and Kubernetes, and have worked with cloud platforms like
         DigitalOcean, and AWS.
       </p>
 

@@ -13,7 +13,7 @@ const HeroText = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
         className='lg:text-2xl sm:text-xl uppercase text-cyan'>
-            Backend Developer
+            Fullstack Developer
         </motion.h2>
 
         <motion.h1 
